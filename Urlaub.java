@@ -4,6 +4,8 @@ public class Urlaub
     private int preis;
     private boolean allInclusive;
     
+    private int prozent;
+    
     public String getOrt()
     {
         return ort;
