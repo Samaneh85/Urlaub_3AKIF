@@ -3,8 +3,15 @@ public class Urlaub
     private String ort;
     private int preis;
     private boolean allInclusive;
+    private int zimmer;
     
-    private int prozent;
+    
+    public Urlaub (String neuOrt,int neuPreis,boolean neuAllInclusive)
+    {
+        setOrt(neuOrt);
+        setPreis(neuPreis);
+        setAllInclusive(neuAllInclusive);
+    }
     
     public String getOrt()
     {
